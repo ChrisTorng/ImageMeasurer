@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ImageMeasurer</title>
+    <link rel="stylesheet" href="src/styles/main.css">
+</head>
+<body>
+    <div id="app">
+        <div id="step1" class="step active">
+            <h1>Image Measurer</h1>
+            <p>Upload an image to measure object dimensions</p>
+            <div id="dropZone" class="drop-zone">
+                <p>Drag and drop an image here or click to select</p>
+                <input type="file" id="fileInput" accept="image/*">
+            </div>
+        </div>
+        <div id="step2" class="step">
+            <h2>Perspective Correction</h2>
+            <div id="perspectiveEditor"></div>
+            <button id="nextStep2">Next</button>
+            <button id="prevStep2">Previous</button>
+        </div>
+        <!-- Additional steps will be added here -->
+    </div>
+    <script type="module" src="src/main.js"></script>
+</body>
+</html>

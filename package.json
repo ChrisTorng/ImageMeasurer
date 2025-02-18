@@ -1,0 +1,17 @@
+{
+  "name": "image-measurer",
+  "version": "1.0.0",
+  "description": "A web-based tool for measuring object dimensions in images",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "vitest",
+    "test:e2e": "playwright test",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.50.1",
+    "vite": "^6.1.0",
+    "vitest": "^3.0.6"
+  }
+}
